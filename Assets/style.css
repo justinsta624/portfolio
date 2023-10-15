@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.template {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}    
+
+header, footer {
+    background-image: url(/Assets/images/space.jpg);
+    background-size: auto;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+ul li, ul p {
+    margin: 0 20px;
+}
+
+ul li a, ul p {
+    text-decoration: underline;
+    color: #cb7ec7;
+    font-size-adjust: inherit;
+}
+
+nav {
+    display: flex;
+    background-image: url(/Assets/images/fall\ leaves.jpg);
+    background-size: auto;
+}
+
+nav p {
+    color: #b9e617;
+    font-size: large;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.main-content {
+    width: 50%;
+    padding: 20px;
+}
+
+#box1 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+#box2 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
