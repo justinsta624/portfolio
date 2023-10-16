@@ -26,7 +26,7 @@ body {
 
 /* match the structure for header & footer */
 header, footer {
-    background-image: url(/Assets/images/16-367x267.jpg);
+    background-image: url(Assets/images/16-367x267.jpg);
     color: #fff;
     padding: 10px 0;
     display: flex;
