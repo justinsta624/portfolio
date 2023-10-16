@@ -28,12 +28,13 @@ body {
 header, footer {
     background-image: url("../images/stars.jpg");
     background-size: auto;
-    color: #fff;
+    color: #3b10d8;
     padding: 10px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: larger;
+    font-size: 18px;
+    font-style: italic;
 }
 
 ul {
@@ -49,7 +50,7 @@ ul li, ul p {
 /* Main menu for web application */
 ul li a, ul p {
     text-decoration: underline;
-    color: #e01a5c;
+    color: #f45187;
     font-size-adjust: inherit;
     justify-content: center;
     display: flex;
@@ -61,15 +62,15 @@ nav {
     flex-wrap: wrap;
     background-image: url("../images/money.jpg");
     background-size: auto;
-    font-size: 29px;
+    font-size: 32px;
     align-items: center;
-    color: magenta;
+    color: rgb(158, 36, 164);
 }
 /* Aside */
 .sidebar1 {
     width: 165%;
-    height: 355px;
-    background-color: #f4f4f4;
+    height: 453px;
+    background-image: url("../images/About\ me4.jpg");
     padding: 20px 20px;
     box-sizing: border-box;
     border: 1px solid #ccc;
@@ -79,8 +80,9 @@ nav {
 
 .sidebar2 {
     width: 165%;
-    height: 1445px;
-    background-color: #f4f4f4;
+    height: 1440px;
+    background-image: url("../images/portfolio\ bg.jpeg");
+    color:#586be1;
     padding: 20px 20px;
     box-sizing: border-box;
     border: 1px solid #ccc;
@@ -113,11 +115,12 @@ nav {
 }
 /* About me */
 .Aboutme-box h1 {
-    background-color: #f4f4f4;
+    background-image: url("../images/Magentabadgewater_color.jpg");
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 1000px;
+    font-style: italic;
 }
 /* work main */
 .larger-box {
