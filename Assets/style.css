@@ -12,22 +12,26 @@ body {
     height: 100%;
 }
 
+/* Class Template as basic structure for this assignment */
 .template {
     width: 95%;
     margin: 0 auto;
     overflow: hidden;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
     padding: 20px 0;
 }    
 
+/* match the structure for header & footer */
 header, footer {
-    background-image: url(/Assets/images/space.jpg);
+    background-image: url(/Assets/images/Pantone\ blue.png);
     background-size: auto;
     color: #fff;
     padding: 10px 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-size: larger;
 }
@@ -36,32 +40,35 @@ ul {
     list-style: none;
     padding: 25px;
     display: flex;
+    flex-wrap: wrap;
 }
 
 ul li, ul p {
     margin: 0px 20px;
 }
-
+/* Main menu for web application */
 ul li a, ul p {
     text-decoration: underline;
-    color: #cb7ec7;
+    color: #e01a5c;
     font-size-adjust: inherit;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
-
+/* Subheading */
 nav {
     display: flex;
+    flex-wrap: wrap;
     background-image: url(/Assets/images/stars.jpg);
     background-size: auto;
+    font-size: 29px;
+    align-items: center;
+    color: magenta;
 }
-
-nav p {
-    color: rgb(25, 117, 229);
-    font-size: larger;
-}
-
-.sidebar {
-    width: 50%;
+/* Aside */
+.sidebar1 {
+    width: 165%;
+    height: 355px;
     background-color: #f4f4f4;
     padding: 20px 20px;
     box-sizing: border-box;
@@ -70,10 +77,21 @@ nav p {
     margin: 20px 30px;
 }
 
-.sidebar h1, h2, h3 {
-    margin-bottom: 10px;
+.sidebar2 {
+    width: 165%;
+    height: 1445px;
+    background-color: #f4f4f4;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px 30px;
 }
 
+.sidebar h1, h2 {
+    margin-bottom: 10px;
+}
+/* Class container for basic structure in section */
 .container {
     color: black;
     font-size: large;
@@ -85,7 +103,7 @@ nav p {
     max-width: 1200px;
     height: fit-content;
 }
-
+/* Name of the web application - work */
 .container p {
     margin: 0 20px;
     text-decoration-style: solid;
@@ -93,7 +111,7 @@ nav p {
     width: 330px;
     text-align: center;
 }
-
+/* About me */
 .Aboutme-box h1 {
     background-color: #f4f4f4;
     padding: 20px;
@@ -101,33 +119,92 @@ nav p {
     border-radius: 5px;
     width: 1000px;
 }
-
+/* work main */
 .larger-box {
     background-color: #f4f4f4;
     padding: 20px;
     flex: 2;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.larger-box img {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.larger-box div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.larger-box h2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.larger-box p {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* work sub with 4 images & links */
+.large-box {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px 0px;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .large-box h1 {
     list-style: none;
     padding: 25px;
     display: flex;
+    flex-wrap: wrap;
+}
+/* Adjusting the size of 4 images & links */
+.small_project_card {
+    width: 500px;
+    flex-wrap: wrap;
+    display: flex;
 }
 
-.large-box, .large-box2 {
-    background-color: #f4f4f4;
-    padding: 20px;
-    margin: 10px 0px;
-    flex-direction: column;
-    flex: 1;
+.small_project_card img {
+    width: 100%;
 }
 
+.small_project_card div {
+    width: 100%;
+}
+
+.small_project_card p {
+    width: 100%;
+}
+
+.small_project_card h2 {
+    width: 100%;
+}
+/* Box alignment for flex-wrap */
+.small_project_box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1014px;
+}
+/* Small box to explain application or potential work*/
 .small-box {
-    background-color: #fff;
-    padding: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+    background-color: white;
     width: 400px;
+    color: rgb(12, 37, 160);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .small-box h2 {
