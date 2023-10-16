@@ -216,3 +216,14 @@ nav {
     text-align: center;
 }
 
+@media screen and (min-width: 400px) {
+    body {
+      background-color: rgb(235, 238, 144);
+    }
+  }
+  
+  @media screen and (min-width: 845px) {
+    body {
+      background-color: rgb(93, 35, 194);
+    }
+  }
