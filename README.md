@@ -21,4 +21,6 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-![image](https://github.com/justinsta624/Challenge-two/assets/143357899/9e2836fc-8ea9-42e3-9a30-c384d3dc0dc3)
+![image](https://github.com/justinsta624/Challenge-two/assets/143357899/1d132b39-4ac1-4aec-86ae-c19b4e8b0621)
+
+deploy live URL: https://justinsta624.github.io/Challenge-two
