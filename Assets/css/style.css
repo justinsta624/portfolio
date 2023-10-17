@@ -222,15 +222,22 @@ nav {
     background-color: rgb(236, 222, 189);
     }
   }
-  
-@media screen and (max-width: 845px) {
-    body {
-    background-color: rgb(32, 39, 243);
-    }
-  }
 
-@media screen and (min-width: 464px) {
+@media screen and (max-width: 1200px) {
+    body {
+    background-color: rgb(80, 189, 78);
+    }
+  }  
+
+@media screen and (min-width: 965px) {
     body {
     background-color: rgb(209, 225, 235);
     }
   }
+  
+@media screen and (max-width: 464px) {
+    body {
+    background-color: rgb(32, 39, 243);
+    }
+  }
+  
