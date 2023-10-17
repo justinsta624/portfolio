@@ -215,15 +215,22 @@ nav {
     margin-bottom: 10px;
     text-align: center;
 }
+/* Changes color when resize viewport*/
 
-@media screen and (min-width: 400px) {
-    body {
-      background-color: rgb(235, 238, 144);
+@media screen and (min-width: 845px) {
+    .larger-box, .large-box {
+    background-color: rgb(236, 222, 189);
     }
   }
   
-  @media screen and (min-width: 845px) {
+@media screen and (max-width: 845px) {
     body {
-      background-color: rgb(93, 35, 194);
+    background-color: rgb(32, 39, 243);
+    }
+  }
+
+@media screen and (min-width: 464px) {
+    body {
+    background-color: rgb(209, 225, 235);
     }
   }
