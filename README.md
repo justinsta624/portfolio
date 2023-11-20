@@ -9,7 +9,7 @@
 ![C2Capture](https://github.com/justinsta624/WeatherDashboard/assets/143357899/a95e30fe-0562-45ee-b3cc-2a8796910125)
 <br />
 <br />
-[Live URL of Movie Recommendation Application](https://justinsta624.github.io/portfolio)
+[Direct link to Hanbyeol Lee's Portfolio](https://justinsta624.github.io/portfolio)
 <br />
 <br />
 
