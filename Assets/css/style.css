@@ -80,7 +80,7 @@ nav {
 
 .sidebar2 {
     width: 165%;
-    height: 1504px;
+    height: 1440px;
     background-image: url("../images/portfolio\ bg.jpeg");
     color:#586be1;
     padding: 20px 20px;
@@ -101,7 +101,7 @@ nav {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 70%;
+    width: 50%;
     max-width: 1200px;
     height: fit-content;
 }
@@ -113,6 +113,13 @@ nav {
     width: 330px;
     text-align: center;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 /* About me */
 .Aboutme-box h1 {
     background-image: url("../images/Magentabadgewater_color.jpg");
@@ -154,6 +161,7 @@ nav {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    display: inline-block;
 }
 /* work sub with 4 images & links */
 .large-box {
@@ -179,7 +187,10 @@ nav {
 }
 
 .small_project_card img {
-    width: 100%;
+    width: 460px;
+    height: 230px;
+    object-fit: cover;
+    object-position: top left;
 }
 
 .small_project_card div {
@@ -210,10 +221,15 @@ nav {
     flex-wrap: wrap;
 }
 
+a {
+    text-decoration: none;
+}
+
 .small-box h2 {
     font-size: 18px;
     margin-bottom: 10px;
     text-align: center;
+    display: inline-block;
 }
 /* Changes color when resize viewport*/
 

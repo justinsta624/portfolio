@@ -19,10 +19,10 @@
             <h1>Hanbyeol Lee(Justin)&#11088;</h1>
                 <ul>
                     <!--scrolls to the corresponding section-->
-                    <li id="Introduction"><a href="#Introduction">About me</a></li>
-                    <li id="Portfolio"><a href="#Portfolio">Work</a></li>
-                    <li id="Time"><a href="#Time">Contact me</a></li>
-                    <li id="linkedin"><a href="#linkedin">Resume</a></li>
+                    <li><a href="#Introduction">About me</a></li>
+                    <li><a href="#Portfolio">Work</a></li>
+                    <li><a href="#Time">Contact me</a></li>
+                    <li><a href="./Assets/resume/Resume_Hanbyeol Lee(2023).pdf" target="_blank">Resume</a></li>
                 </ul>
         </div>
     </header>
@@ -38,7 +38,7 @@
     </nav>
 
     <!--main-->
-    <Main>
+    <main>
     <div class="template">
         <!--aside-->
         <aside>
@@ -47,8 +47,8 @@
         </aside>
         <!--section for about me-->
         <section class="container">
-        <div class="Aboutme-box">
-            <h1>Introduction &#10163;<br><br> I'm UofT HBA undergraduate worked as an acting manager of operations.<br>
+        <div class="Aboutme-box" id="Introduction">
+            <h1>Introduction &#10163;<br><br> I'm UofT HBA undergrad worked as an assistant manager of operations.<br>
             My foundational understanding of project management, critical thinking and decision-making processes
             allowed me to exercise a methodical approach to review cases and respond accordingly in a timely manner.<br> 
             My problem-solving, data collecting, and organizational abilities will support your continued success, 
@@ -60,7 +60,7 @@
             </h1>
         </div>
         <!--section for Project 1-->                
-        <div class="larger-box">
+        <div class="larger-box" id="Portfolio">
         <a href="https://teamprojectmoviereview.github.io/Team-Project-/">
             <img src="./Assets/images/project 1.png" alt="Movie Review website"/>
             </a>
@@ -70,19 +70,28 @@
                 <p>Project 1</p>
             </div>
         </div>
-        <!--Box alignment for flex-wrap-->       
+        <!--Box alignment for flex-wrap-->  
+        <!--Box size adjustment-->      
         <div class="small_project_box"> 
-        <!--Box size adjustment-->   
-        <!--section for Prework study guide-->   
+
+        <div class="large-box small_project_card">    
+        <a href="https://justinsta624.github.io/JavapassgenC3/">
+            <img src="./Assets/images/Challenge 3.png" alt="Password Generator"/>    
+            <div class="small-box">
+                <h2>Password Generator</h2>
+                <p>Challenge 3</p>
+            </div>
+        </div>
+
         <div class="large-box small_project_card">
         <a href="https://justinsta624.github.io/APICodeQuiz/">    
             <img src="./Assets/images/Challenge 4.png" alt="API Code Quiz"/>
-            </a>
             <div class="small-box">
                 <h2>API Code Quiz</h2>
                 <p>Challenge 4</p>
             </div>
         </div>
+
         <!--section for potential work-->          
         <div class="large-box small_project_card">
         <a href="https://justinsta624.github.io/3rdPartyAPIs/">
@@ -92,16 +101,7 @@
                 <p>Challenge 5</p>
             </div>
         </div>
-
-        <div class="large-box small_project_card">    
-            <a href="https://justinsta624.github.io/JavapassgenC3/">
-            <img src="./Assets/images/Challenge 3.png" alt="Password Generator"/>    
-            <div class="small-box">
-                <h2>Password Generator</h2>
-                <p>Challenge 3</p>
-            </div>
-        </div>
-        
+    
         <div class="large-box small_project_card">
             <a href="https://justinsta624.github.io/WeatherDashboard/">
             <img src="./Assets/images/Challenge 6.png" alt="Weather Dashboard"/>   
@@ -113,13 +113,13 @@
         </div>
         </section>
     </div>    
-    </Main>
+    </main>
     <!--Footer to list personal contact info-->   
     <footer>
-        <div class="template">
+        <div class="template" id="Time">
             <h1>Contact Me</h1>
             <ul>
-                <p>289-527-1117</p>
+                <a href="tel:+1-289-527-1117"><p>289-527-1117</p></a>
                 <li><a href = "mailto: justinsta624@gmail.com">Send Email</a></li> 
                 <li><a href="https://github.com/justinsta624/Challenge-two">github</a></li>
                 <li><a href="https://www.facebook.com/hanbyeol.j.lee">facebook</a></li>
