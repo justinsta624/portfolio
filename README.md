@@ -2,11 +2,11 @@
 <a id="top"></a>
 
 ![Portfolio](https://img.shields.io/badge/Repository-Portfolio-blueviolet)
-![HanbyeolLee](https://img.shields.io/badge/Name-HanbyeolLee-red)](#JQuery)
 ![CodingBootCamp](https://img.shields.io/badge/Class-CodingBootCamp-green)
 ![11/19/2023](https://img.shields.io/badge/UpdateDate-11/19/2023-fcba03)
+![HanbyeolLee](https://img.shields.io/badge/StudentName-HanbyeolLee-red)
 
-![image](https://github.com/justinsta624/Challenge-two/assets/143357899/e9ba38dc-6308-46bc-9937-0434f530dbca)
+![C2Capture](https://github.com/justinsta624/WeatherDashboard/assets/143357899/a95e30fe-0562-45ee-b3cc-2a8796910125)
 <br />
 <br />
 [Live URL of Movie Recommendation Application](https://justinsta624.github.io/portfolio)
@@ -19,7 +19,8 @@
 ```
 AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+SO THAT I can review samples of their work and assess
+whether they're a good candidate for an open position
 ```
 
 </details>
@@ -30,7 +31,8 @@ SO THAT I can review samples of their work and assess whether they're a good can
 ```
 GIVEN I need to sample a potential employee's previous work
 WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+THEN I am presented with the developer's name, a recent photo or avatar,
+and links to sections about them, their work, and how to contact them
 WHEN I click one of the links in the navigation
 THEN the UI scrolls to the corresponding section
 WHEN I click on the link to the section about their work
