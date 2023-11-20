@@ -1,11 +1,33 @@
-# Professional Portfolio for Hanbyeol Lee
+## ⭐ Professional Portfolio for Hanbyeol Lee ⭐ 
+<a id="top"></a>
 
-## User Story
+[![Portfolio](https://img.shields.io/badge/Repository-Portfolio-blueviolet)]
+[![HanbyeolLee](https://img.shields.io/badge/Name-HanbyeolLee-red)](#JQuery)
+[![CodingBootCamp](https://img.shields.io/badge/Class-CodingBootCamp-green)]
+[![11/19/2023](https://img.shields.io/badge/UpdateDate-11/19/2023-fcba03)]
+
+![image](https://github.com/justinsta624/Challenge-two/assets/143357899/e9ba38dc-6308-46bc-9937-0434f530dbca)
+<br />
+<br />
+[Live URL of Movie Recommendation Application](https://justinsta624.github.io/portfolio)
+<br />
+<br />
+
+<details open>
+<summary> User Story </summary> <br />
+
+```
 </br> AS AN employer
 </br> I WANT to view a potential employee's deployed portfolio of work samples
 </br> SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+```
 
-## Acceptance Criteria
+</details>
+
+<details open>
+<summary> Acceptance Criteria </summary> <br />
+
+```
 </br> GIVEN I need to sample a potential employee's previous work
 </br> WHEN I load their portfolio
 </br> THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
@@ -19,6 +41,9 @@
 </br> THEN I am taken to that deployed application
 </br> WHEN I resize the page or view the site on various screens and devices
 </br> THEN I am presented with a responsive layout that adapts to my viewport
+```
+
+</details>
 
 ![image](https://github.com/justinsta624/Challenge-two/assets/143357899/e9ba38dc-6308-46bc-9937-0434f530dbca)
 
